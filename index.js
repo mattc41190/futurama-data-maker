@@ -15,7 +15,7 @@ const combined = {crew, senders, recipients, deliveries}
 const crewContents = new Uint8Array(Buffer.from(JSON.stringify(crew)))
 const sendersContents = new Uint8Array(Buffer.from(JSON.stringify(senders)))
 const recipientsContents = new Uint8Array(Buffer.from(JSON.stringify(recipients)))
-const deliveriesContents = new Uint8Array(Buffer.from(JSON.stringify(recipients)))
+const deliveriesContents = new Uint8Array(Buffer.from(JSON.stringify(deliveries)))
 const combinedContents = new Uint8Array(Buffer.from(JSON.stringify(combined)))
 
 const crewFile = 'crew.json'
